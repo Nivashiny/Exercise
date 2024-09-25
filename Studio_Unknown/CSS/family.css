@@ -1,0 +1,44 @@
+*{  
+    margin: 0;  
+    outline: none;      
+    box-sizing: border-box;
+    background-color: rgba(227, 224, 222, 0.703);      
+}
+
+table tr {
+    padding: 20px 30px 20px 20px;
+    line-height: 30px;
+}
+
+table th{
+    font-size: 30px;
+    color: rgb(46, 29, 6);
+}
+
+table{
+    margin: 50px 100px;
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;  
+    align-items: center;   
+    justify-content: center;
+}
+
+.media ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.media ul li {
+    margin-right: 40px;
+}
+
+.media ul li i{
+    height: 10px;
+    width: 10px;
+}
